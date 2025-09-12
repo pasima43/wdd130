@@ -54,6 +54,9 @@ aside img {
     width: 200px;
     height: auto;
     margin: auto;
+    border: 1px;
+    padding: 1px;
+    box-shadow: #f4f4f4;
 
 }
 main img {
@@ -61,7 +64,9 @@ main img {
     height: auto;
     display: block;
     margin: auto;
-    text-align: center;
+    border: 1px;
+    padding: 1px;
+    box-shadow: #f4f4f4;
 }
 
 p {
