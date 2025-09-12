@@ -16,7 +16,7 @@ nav {
     padding: 0.5rem 0;
 }
 
-h1,h2{
+h1{
     color: steelblue;
 }
 
@@ -53,12 +53,12 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    margin: auto;
 
 }
 main img {
-    width: 150px;
+    width: 200px;
     height: auto;
-    position: center;
     display: block;
     margin: auto;
     text-align: center;
