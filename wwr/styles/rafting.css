@@ -1,0 +1,76 @@
+:root {
+    /* Define your color scheme here */
+    --primary-color: #007bff; /* Example: Blue */
+    --secondary-color: #6c757d; /* Example: Gray */
+    --accent1-color: #343a40; /* Example: Dark Gray */
+    --accent2-color: #f8f9fa; /* Example: Light Gray */
+    --heading-font: 'Arial Black', sans-serif;
+    --body-font: 'Arial', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px; /* Example positioning */
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional background */
+    padding: 10px;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin: 0 0 10px 10px; /* Example margin */
+    border: 1px solid #ccc; /* Optional border */
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Optional shadow */
+}
