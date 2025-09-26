@@ -19,6 +19,45 @@ body {
     color: var(--accent1-color);
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: 16px 24px;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+header img {
+    height: 60px;
+    width: auto;
+    border-radius: 6px;
+    margin-right: 24px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+nav a {
+    color: #fff;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+}
+
 header, main, footer {
     width: 840px;
     margin: 0 auto;
