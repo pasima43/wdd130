@@ -222,3 +222,75 @@ footer nav.socialmedia a:hover img {
         margin-bottom: 1rem;
     }
 }
+
+/*  Additions for contact.html */
+
+.company-info {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.company-info h2 {
+    margin-bottom: 10px;
+}
+
+.company-info .map {
+    margin-top: 15px;
+}
+
+.contact-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact-form div {
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: inline-block;
+    width: 150px; /* Adjust as needed */
+    text-align: left;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 300px; /* Adjust as needed */
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.employee {
+    text-align: center;
+}
+
+.employee img {
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Reusing existing styles (example - adjust as needed) */
+h1, h2 {
+    font-family: sans-serif; /*  Match existing headings */
+    color: navy; /* Match existing headings */
+}
